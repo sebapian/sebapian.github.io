@@ -1,0 +1,22 @@
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20pt;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.card {
+  display: flex;
+}
+
