@@ -17,17 +17,15 @@ body {
   font-size: 20pt;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
+.flex-container1 {
+  display: flex;
+  justify-content: center;
   gap: 10px;
 }
 
-.grid-container2 {
+.flex-container2 {
   display: flex;
   justify-content: center;
-  
   gap: 10px;
 }
 
@@ -38,6 +36,8 @@ body {
   gap: 10px;
   background-color: white;
   max-height: 500px;
+  width: 500px;
+  margin: 20px;
 }
 
 .card-image-container {
@@ -47,7 +47,6 @@ body {
 
 .card-image {
   width: 100%;
-  height: 100%;
   background-size: cover;
   background-position: center;
   object-fit: cover;
