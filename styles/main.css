@@ -1,3 +1,4 @@
+/* Media query for flex-container into column */
 @media (max-width: 768px) {
   .flex-container1 {
     flex-direction: column;
@@ -13,8 +14,9 @@
 
 }
 
+/* Media query for top menu */
 @media (max-width: 650px) {
-  
+
 }
 
 h1 {
@@ -25,15 +27,30 @@ h1 {
 }
 
 body {
-  background-color: white;
+  background-color: #f6f3eb;
   padding: 1em 8em;
 }
 
-.top-menu {
-  display: flex;
-  justify-content: space-around;
-  font-size: 16pt;
+.menu-container {
   margin-bottom: 30px;
+}
+
+.menu-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.menu-item {
+  flex-grow: 1;
+  min-width: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-menu-item a {
+  align-items: center;
+  justify-content: center;
 }
 
 .flex-container1 {
