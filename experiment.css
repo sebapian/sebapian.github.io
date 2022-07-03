@@ -1,0 +1,19 @@
+body {
+  background-color: #f6f3eb;
+  padding: 1em 8em;
+}
+
+.parent-element {
+}
+
+
+.child-element {
+  display: inline-block;
+  width: 100px;
+  height: 160px;
+  border: 1pt solid;
+  padding: 10px;
+}
+
+
+

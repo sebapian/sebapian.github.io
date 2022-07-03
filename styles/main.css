@@ -31,7 +31,7 @@ header {
 }
 
 .menu-container {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   justify-content: center;
   min-width: 300px;
 }
@@ -121,6 +121,40 @@ header {
 .card-description {
   padding-top: 10px;
 }
+
+/* Blog styles */
+
+.blog-title {
+  padding-bottom: 30px;
+}
+
+.blog-date {
+  font-weight: bold;
+  color: grey;
+  margin-bottom: 40px;
+}
+
+.sub-title {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 16pt;
+  text-decoration: underline;
+}
+
+.blog-content {
+  font-size: 14pt;
+  padding-bottom: 20px;
+}
+
+.blog-image {
+  display: block;
+  border: 2pt solid;
+  padding: 0 2px;
+  border-radius: 10px;
+}
+
+
+/* Media queries */
 
 @media (max-width:1474px) {
   .card {
