@@ -123,10 +123,15 @@ header {
   padding-top: 10px;
 }
 
+.return-prev {
+  margin-bottom: 30px;
+}
+
 /* Blog styles */
 
 .blog-title {
   padding-bottom: 30px;
+  font-size: 30pt;
 }
 
 .blog-date {
