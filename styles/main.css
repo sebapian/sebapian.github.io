@@ -152,11 +152,16 @@ header {
   padding-bottom: 20px;
 }
 
+.blog-content li {
+  list-style-position: inside;
+}
+
 .blog-image {
   display: block;
   border: 2pt solid;
   padding: 0 2px;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 
