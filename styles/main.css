@@ -135,6 +135,18 @@ header {
 
 /* Blog styles */
 
+.main-blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-container {
+  width: 80%;
+  height: auto;
+}
+
 .blog-title {
   padding-bottom: 30px;
   font-size: 30pt;
@@ -147,7 +159,7 @@ header {
 }
 
 .sub-title {
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 20px;
   font-size: 16pt;
   text-decoration: underline;
@@ -164,10 +176,11 @@ header {
 
 .blog-image {
   display: block;
-  border: 2pt solid;
+  border: 2pt 2pt;
   padding: 0 2px;
   border-radius: 10px;
   margin-bottom: 10px;
+  max-width: 100%;
 }
 
 
@@ -184,6 +197,10 @@ header {
     min-width: 300px;
   }
 
+  body {
+    padding: 1em 3em;
+  }
+
 }
 
 @media (max-width:950px) {
@@ -195,10 +212,6 @@ header {
 @media (max-width:640px) {
   .card {
     min-width: 300px;
-  }
-
-  body {
-    padding: 1em 3em;
   }
 
   .blog-title {

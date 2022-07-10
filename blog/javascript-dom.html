@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Fundamentals</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  
+    <body>
+      <header>
+        <h1><a href="../index.html">Sebastian Pian</a></h1> 
+        <div class="menu-container">
+          <ul class="menu-wrapper">
+            <li class="menu-item"><a href="../about-me.html">About me</a></li>
+            <li class="menu-item"><a href="../blog.html">Blog</a></li>
+            <li class="menu-item"><a href="../tech-blog.html" style="text-decoration: underline; color: brown">Technical Blog</a></li>
+            <li class="menu-item"><a href="../tech.html">Technology</a></li>
+            <li class="menu-item"><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <h2 class="return-prev"><a href="../tech-blog.html"><<<  Return to Technical Blog main</a></h2>
+
+      <main class="main-blog-container">
+        <div class="blog-container">
+          <h2 class="blog-title">Javascript Fundamentals</h2>
+          <div class="blog-date">10/07/2022</div>
+
+          <h3 class="sub-title">What is DOM and how it relates to HTML, CSS and Javascript</h3>
+
+          <img class="blog-image" src="javascript-dom-images/car.jpg" alt="Car photo">
+
+          <p class="blog-content">First of all what is HTML? HTML defines structure of a web page. Let’s use a car as an analogy: HTML represents the different parts of the car like wheels, mirror, exhaust pipe, shade roof. In terms of a web page, this includes element tags such as p, div, head, body, main that make up a complete web page.</p>
+
+          <p class="blog-content">How about CSS? HTML is plain by itself and CSS steps in to provide the appearance and styling for it. The representation of CSS in a car would be changing the wheels to have black rims, tinted mirrors, exposed exhaust pipes and the colour of the car’s body. In a web page, you can make a particular word red in colour or bold, size certain images to fit and much more.</p>
+
+          <p class="blog-content">Javascript deals with user interactivity within a web page, breathing life into it. Coming back to the car analogy, Javascript can be represented as the accelerator to move the wheel forwards. With a web page, we can utilise Javascript to make a music play when it reaches a particular section of the page document or make an element change its colour with a button click.</p>
+
+          <p class="blog-content">So how do we make these integrate with each other? The glue that holds these together is the Document Object Model (DOM). Let’s delve into what the Document Object Model is! Exciting!</p>
+
+          <p class="blog-content">Let us kick off with a very simplified view below of DOM to better our understanding. Essentially, it is a representation or interface of a web page so that external programs can manipulate the document structure, style and content. Javascript language is commonly utilised to navigate through the DOM and access the document and its elements.</p>
+
+          <img class="blog-image" src="javascript-dom-images/dom-example.jpg" alt="DOM tree photo">
+
+          <h3 class="sub-title">What is control flow and loops?</h3>
+
+          <p class="blog-content">Control flow is the order in which the computer executes statements in a script. To make it easier to understand, let’s take my daily morning routine as an example (for you to get to know me better)! Every morning I carry out the following:</p>
+
+          <ol class="blog-content">
+            <li>Wake up at 7 a.m. (or at least try to LOL)</li>
+            <li>Do my morning stretches and handstand routine</li>
+            <li>Carry out 5 minute meditation </li>
+            <li>Take a shower</li>
+            <li>Plan out my goal and challenge for the day</li>
+            <li>Begin learning coding!</li>
+          </ol>
+
+          <p class="blog-content">This is done in sequence from Step 1 to Step 6, similarly to how a code is run from the first line in the file to the last line. There are however exceptions that can change the control flow, such as conditionals and loops.</p>
+
+          <p class="blog-content">Loop is a structure that offer a neat and quick way of doing something repeatedly. Let’s go back to my morning routine as an example. In my handstand routine, there are different actions I carry out repeatedly:</p>
+
+          <ul class="blog-content">
+            <li>Forward wrist stretch x 10</li>
+            <li>Backward wrist stretch x 10</li>
+            <li>L-shape handstand x 3</li>
+            <li>Wall handstand x 3</li>
+            <li>Thigh stretch x 10</li>
+            <li>Off-wall handstand x 3</li>
+          </ul>
+
+          <p class="blog-content">In code, I am able repeat an action multiple times utilising loop without having to re-writing the code repeatedly. See below as how my handstand routine can be represented as a loop code.</p>
+
+          <img class="blog-image" src="javascript-dom-images/handstand-loop.jpg" alt="Handstand loop example">
+
+          <h3 class="sub-title">Difference between accessing data from arrays and objects</h3>
+
+          <p class="blog-content"><b>Array</b></p>
+
+          <p class="blog-content">Array enables the storing of multiple items under a single variable name. The variable name provides a description of what the group of data being stored is.</p>
+
+          <p class="blog-content">An example of an array is:</p>
+
+          <img class="blog-image" src="javascript-dom-images/array-example.jpg" alt="Array code example">
+
+          <p class="blog-content">Each value in an array is assigned an Index Value (see green note in picture). To access the specific values in an array, we utilise the associated index value. For example:</p>
+
+          <img class="blog-image" src="javascript-dom-images/array-access.jpg" alt="Accessing array example">
+
+          <p class="blog-content"><b>Object</b></p>
+
+          <p class="blog-content">An object is also a list but it introduces a collection of unique and in-depth values tied to what the object signifies. Each of the values have a ‘key’ (unique description) tied to it.</p>
+
+          <p class="blog-content">An example of an object is:</p>
+
+          <img class="blog-image" src="javascript-dom-images/object-example.jpg" alt="Object code example">
+
+          <p class="blog-content">To access a value of an object, we first use the name of the object paired with the ‘key’ of the value we want to access. For example:</p>
+
+          <img class="blog-image" src="javascript-dom-images/object-access.jpg" alt="Accessing object example">
+
+          <h3 class="sub-title">Functions and why they are helpful!</h3>
+
+          <p class="blog-content">A function is a set of instructions designed for a specific task. To execute the given instructions, it needs to be called upon in the code.</p>
+
+          <img class="blog-image" src="javascript-dom-images/function-example.jpg" alt="Function code example">
+
+          <p class="blog-content">The above is an example of a function multiplying two numbers together. It takes in two different inputs (known as parameters).The output of the function is the result of the instruction written in it, in this case the multiplication of both input numbers.</p>
+
+          <p class="blog-content">The use of functions is easily comparable to a tool like a hammer. Once bought in this case the function made, the tool can be utilised to its intended purpose when it is CALLED upon!</p>
+
+        </div>
+      </main>
+    </body>  
+</html>
