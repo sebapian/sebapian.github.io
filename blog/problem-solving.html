@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Problem Solving</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  
+    <body>
+      <header>
+        <h1><a href="../index.html">Sebastian Pian</a></h1>  
+        <div class="menu-container">
+          <ul class="menu-wrapper">
+            <li class="menu-item"><a href="../about-me.html">About me</a></li>
+            <li class="menu-item"><a href="../blog.html">Blog</a></li>
+            <li class="menu-item"><a href="../tech-blog.html" style="text-decoration: underline; color: brown">Technical Blog</a></li>
+            <li class="menu-item"><a href="../tech.html">Technology</a></li>
+            <li class="menu-item"><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <h2 class="return-prev"><a href="../tech-blog.html"><<<  Return to Technical Blog main</a></h2>
+
+      <main class="main-blog-container">
+        <div class="blog-container">
+          <h2 class="blog-title">Problem Solving</h2>
+          <div class="blog-date">17/07/2022</div>
+
+          <p class="blog-content">
+            Problems are abundant in our lives, and it is something we should embrace whole-heartedly. We shouldn’t view problems as a negative experience, but a temporary block to success that comes beyond it. Navigating through a problem successfully means that the problem, will no longer be a problem, should it arise again. However, it is understandable that challenging problems can cause stress and make one want to pull their hair out! Here’s a problem I faced during the 3rd Sprint in my DevAcademy foundations, relating to the code along Javascript Café exercise.
+          </p>
+
+          <h3 class="sub-title">The Problem</h3>
+
+          <p class="blog-content">
+            The Javascript Café exercise was a code along activity with the course facilitator, and I got stuck on a TypeError for a loop section. I was trying to pull ahead of the activity by pausing the video and working on the code before being provided with the solution. Here’s a glimpse at my code where the problem lied. To my developer friends, can you spot what the error is?
+          </p>
+
+          <img class="blog-image" src="problem-solving-images/console-error.jpg" alt="Console error output">
+          <img class="blog-image" src="problem-solving-images/problem.jpg" alt="Problem code snippet">
+
+          <p class="blog-content">
+            Yeap, you guessed it! I was looping past the end of the array with “i <= customer.order.length” instead of “i < customer.order.length”. I looked at the solution for the code but still could not spot the problem which led me to think that it was an error in accessing the customer object, when in fact it was an “=” sign which led to the problem.
+          </p>
+
+          <h3 class="sub-title">Problem-solving Techniques I Utilised and How I Felt</h3>
+
+          <p class="blog-content">
+            At first, I tried to Google the error output I was obtaining. This led me into a series of investigations through the solutions that was provided on the web. I looked up keywords such as “JS how to access object properties”, but this was to no avail. I had tried Googling the problem for 2 hours and during the session, it was incredibly stressing how I had followed the code along session but did not obtain the result. I decided it was time to ask for help from my fellow cohorts and facilitator. I got onto DevAcademy’s Discord group under the help-request section and posted my problems. A swift response was provided by Gerard, he immediately spotted the error along with reasonings. I was dumbfounded by how simple the problem was at first but incredibly grateful that Gerard was understanding towards me! Thank you, Gerard!
+          </p>
+
+          <h3 class="sub-title">What I Learnt</h3>
+
+          <p class="blog-content">
+            Not only did I learn the solution to the technical problem, but also understood that some times I just need to zoom out of the problem and examine the code line by line. Console.logging each loop iteration is a way to help visualise the output.
+          </p>
+
+          <h3 class="sub-title">Using Different Problem Solving Methods</h3>
+
+          <ul class="blog-content">
+            <li><b>Pseudocode</b> – I always utilise this method prior to commencing my code. It helps me plan the steps required to achieve the solution so that my thoughts aren’t scrambled in my brain.</li>
+            <li><b>Trying something</b> – Every time I feel like I’m stuck in thought on how it would work, I just jump straight into the code and experiment my idea. If the idea does not work out, I would eliminate that idea which leads me into a series of new ones.</li>
+            <li><b>Rubber ducky method</b> – This is something I have yet to do, although I mumble to myself a lot each time I’m thinking of a solution. I have a Goku figurine sitted next to my monitor, so I will most definitely try it out on him in the future. He might just provide a “Kame-kame-ha” idea!</li>
+            <li><b>Reading error messages</b> – I am still familiarising myself with error messages by Google them each time they come out. I hope I get to a point where I am able to better understand these!</li>
+            <li><b>Console.logging</b> – I always use console.logging to visualise my code outputs, and it works wonders to figuring out the problem.</li>
+            <li><b>Googling</b> – Google is love, google is life!</li>
+            <li><b>Asking my peers for help</b> – I never fail to ask my peers for help, especially when it is a problem I am unable to solve.</li>
+            <li><b>Asking coaches for help</b> – Coaches are no exception to my extent of help request as they are very knowledgeable and most likely have dealt with the problem countless of times.</li>
+            <li><b>Improving my process with reflection</b> – I treat each problem as a lesson, understanding the cause of the problem, and trying my best not to repeat them again.</li>
+          </ul>
+          
+
+        </div>
+      </main>
+    </body>
+</html>
