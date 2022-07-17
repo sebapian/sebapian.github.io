@@ -176,6 +176,7 @@ header {
 
 .blog-image {
   display: block;
+  width: auto;
   border: 2pt 2pt;
   padding: 0 2px;
   border-radius: 10px;
